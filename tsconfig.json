@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowImportingTsExtensions": true,
+    "baseUrl": "./",
+    "useDefineForClassFields": true,
+    "target": "esnext",
+    "moduleResolution": "node",
+    "jsx": "preserve",
+    "esModuleInterop": true,
+    "strict": true,
+    "lib": [
+      "ESNext",
+      "DOM"
+    ],
+    "skipLibCheck": true,
+    "isolatedModules": true,
+    "resolveJsonModule": true,
+    "composite": true,
+    "module": "ESNext",
+    "allowSyntheticDefaultImports": true,
+    "paths": {
+      "@elephant/pro-field": [
+        "./packages/field/src/index.tsx"
+      ]
+    },
+  },
+  "include": [
+    ".eslintrc.js",
+    "packages/**/*.ts",
+    "packages/**/*.tsx",
+    "packages/**/*.vue",
+  ],
+  "exclude": []
+}

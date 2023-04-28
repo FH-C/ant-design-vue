@@ -1,0 +1,16 @@
+{
+  "name": "@elephant/pro-provider",
+  "version": "0.0.0",
+  "type": "module",
+  "main": "src/index.ts",
+  "module": "src/index.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "peerDependencies": {
+    "vue": "^3.2.47",
+    "@arco-design/web-vue": "^2.45.0"
+  }
+}
